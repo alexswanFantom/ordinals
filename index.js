@@ -29,8 +29,6 @@ async function main() {
       console.log(argsJsonText);
       return msg.error("invalid text json or hex.");
     }
-  } else if (argsChain === "tron") {
-    return modules.mintTRC20(argsJsonText, argsRepeat);
   } else if (argsChain === "new") {
     return modules.createWallet();
   } else {
