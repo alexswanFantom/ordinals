@@ -16,7 +16,7 @@ module.exports = {
   rpc: {
     polygon: "https://1rpc.io/matic",
     arbitrum: "https://1rpc.io/arb",
-    kcs: "https://rpc-mainnet.kcc.network",
+    kcs: "https://go.getblock.io/897277680f784c8f9371ec0421b2261b",
     avax: "https://1rpc.io/avax/c",
     klay: "https://1rpc.io/klay",
     bsc: "https://1rpc.io/bnb",
