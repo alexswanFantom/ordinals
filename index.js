@@ -14,7 +14,7 @@ async function main() {
   console.clear();
 
   if (cfg.chain.includes(argsChain)) {
-    if (/^[a-fA-F0-9]*$/.test(argsJsonText)) {
+    if (/^[a-fA-F0-9]*$/.test(argsJsonText.replace('0x')) {
       return modules.mint(argsChain, argsJsonText, argsRepeat);
     } else if (argsJsonText === undefined) {
       return msg.error("Please put text string or hex.");
